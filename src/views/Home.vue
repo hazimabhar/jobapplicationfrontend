@@ -1,8 +1,12 @@
 <template>
-    <p class="text-center">
+  <div class="text-center">
+    <p>
         Email Sender
     </p>
-    <router-view/>
+    <div>
+      <router-view/>
+    </div>
+  </div>
 </template>
 <script>
 export default {
